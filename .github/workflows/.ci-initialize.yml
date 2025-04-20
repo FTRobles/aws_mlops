@@ -15,7 +15,7 @@ jobs:
           if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
 
       - name: Check rag-app exists
-        run: ls -la 
+        run: ls
       
       - name: Run test
         run: pytest -v
