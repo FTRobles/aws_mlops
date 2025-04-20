@@ -16,4 +16,3 @@ jobs:
       
       - name: Run test
         run: pytest -v
-        working-directory: ragg-app-simple
