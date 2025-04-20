@@ -19,3 +19,4 @@ jobs:
       
       - name: Run test
         run: pytest -v
+        working-directory: rag-app-simple
