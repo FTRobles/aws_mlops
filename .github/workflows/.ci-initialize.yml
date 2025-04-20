@@ -1,0 +1,8 @@
+name: AWS-MLOPS
+on: [push]
+jobs:
+  print:
+    runs-on: ubuntu-latest
+    steps:
+      - name: printing
+        run: echo "CI step Init" 
