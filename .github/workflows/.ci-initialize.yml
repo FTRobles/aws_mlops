@@ -15,5 +15,4 @@ jobs:
           if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
       
       - name: Run test
-        run: pytest -v
-        working-directory: ./rag-app
+        run: pytest -v rag-app/
