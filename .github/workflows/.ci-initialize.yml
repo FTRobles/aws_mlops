@@ -16,4 +16,4 @@ jobs:
       
       - name: Run test
         run: pytest -v
-        working-directory=./rag-app
+        working-directory: ./rag-app
